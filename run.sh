@@ -18,7 +18,7 @@ if [[ $1 ]]; then
 		do
 		if [[ -f $file ]]; then
 			printf "\n\nConverting $url...\n\n"
-			ffmpeg -i $file -vcodec copy -af volume=$1 ../output/$file
+			ffmpeg -i "$file" -vcodec copy -af volume=$1 ../output/"$file"
 		fi
 	done
 	cd -
