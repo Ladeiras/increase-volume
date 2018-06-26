@@ -7,5 +7,6 @@ Download and increase videos volume
  - ffmpeg
  
  ## Usage
+  - add execution permissions ```chmod +x run.sh```
   - paste video urls in 'urls' file
   - ```run.sh <mult factor>```
